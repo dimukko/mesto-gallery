@@ -1,5 +1,5 @@
 // Создание элементов на странице
-class NewElement {
+export default class NewElement {
     constructor() {
         this.element = null;
         this.container = document.querySelector('.root');

@@ -1,5 +1,7 @@
 //Родительский класс для создания всплывающих окон
-class Popup extends NewElement {
+import NewElement from './new-element.js';
+
+export default class Popup extends NewElement {
   constructor() {
     super();
   }

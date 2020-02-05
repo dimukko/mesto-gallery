@@ -1,4 +1,4 @@
-class Validation {
+export default class Validation {
     constructor() {
         this.firstFormField = null;
         this.secondFormField = null;

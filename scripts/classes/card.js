@@ -1,5 +1,7 @@
 // Создание карточки
-class Card extends NewElement {
+import NewElement from './new-element.js';
+
+export default class Card extends NewElement {
     constructor(props) {
         super();
         this._imageLink = props.link; // ссылка на картинку

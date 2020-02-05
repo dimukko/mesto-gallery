@@ -1,5 +1,7 @@
 // Создание листа карточек и добавление новой
-class CardList extends NewElement {
+import NewElement from './new-element.js';
+
+export default class CardList extends NewElement {
     constructor(container, api) {
         super();
         this.container = container;

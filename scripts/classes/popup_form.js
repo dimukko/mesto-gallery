@@ -1,5 +1,7 @@
 // Создание всплывающего окна с формами
-class PopupForm extends Popup {
+import Popup from './popup.js';
+
+export default class PopupForm extends Popup {
     constructor(props, validation, api, userInfo) {
         super();
         this._popupId = props.id;

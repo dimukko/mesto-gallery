@@ -1,5 +1,7 @@
 // Создание всплывающего окна с фото
-class PopupImage extends Popup {
+import Popup from './popup.js';
+
+export default class PopupImage extends Popup {
   constructor(imgUrl) {
     super();
     this._imgUrl = imgUrl;

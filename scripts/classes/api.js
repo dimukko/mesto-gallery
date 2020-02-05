@@ -1,4 +1,4 @@
-class Api {
+export default class Api {
   constructor(props) {
     this.url = props.url;
     this.headers = props.headers;
