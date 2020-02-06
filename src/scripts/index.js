@@ -1,4 +1,5 @@
 // ---------------------------------- Импорт -----------------------------------------------------  //
+import '../pages/index.css';
 
 import Api from './classes/api.js';
 import Card from './classes/card.js';
