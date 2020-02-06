@@ -27,7 +27,7 @@ export default class PopupForm extends Popup {
         return `
           <div class="popup" id="${this._popupId}">
           <div class="popup__content">
-            <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close" />
+            <img src="${require('../../images/close.svg')}" alt="" class="popup__close" />
             <h3 class="popup__title">${this._title}</h3>
             <form class="popup__form" name="${this._formName}">
               <input type="${this._firstFormFieldType}" name="${this._firstFormFieldName}" class="popup__input" placeholder="${this._firstFormFieldPlaceholder}" minlength="2" maxlength="20" autocomplete="off" required/>
