@@ -59,10 +59,15 @@ const userPicPopupProps = {
     path: '/users/me/avatar'
 }
 
+// Использование http/https в зависимости от режима сборки
+const serverUrl =
+  NODE_ENV === "development"
+    ? "http://praktikum.tk/cohort6"
+    : "https://praktikum.tk/cohort6";
 
 // Свойства API
 const accessOptions = {
-    url: "http://95.216.175.5/cohort6",
+    url: serverUrl,
     headers: {
         authorization: "c6b154b0-5bf5-4fe1-a54b-c8f1efaf3b04",
         "Content-Type": "application/json"
